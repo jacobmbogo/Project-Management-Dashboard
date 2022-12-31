@@ -1,0 +1,19 @@
+.nav {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 2rem;
+
+  &__activity {
+    flex: 1;
+  }
+
+  &__updates {
+    flex: 1;
+  }
+  &__settings {
+    flex: 1;
+  }
+}

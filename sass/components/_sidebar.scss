@@ -1,0 +1,57 @@
+.sidebar__quickpanel {
+  flex: 0 0 22rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+
+  &--details {
+    flex: 0 0 8rem;
+    display: flex;
+    padding-bottom: 1rem;
+
+    &-naming {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  &--search {
+    flex: 0 0 4rem;
+  }
+
+  &--access {
+    flex: 0 0 10rem;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+  }
+}
+
+.sidebar__workspace {
+  flex: 1;
+  background-color: inherit;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
+
+.app--logo {
+  flex: 0 0 5rem;
+  margin-right: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+  width: 100%;
+  border: transparent;
+  height: 3rem;
+  border-radius: 0.3rem;
+  outline: 0;
+  padding: 0.5rem 1rem;
+}
