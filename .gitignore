@@ -1,0 +1,16 @@
+*.log
+
+#build
+dist/
+
+
+#modules
+node_modules/
+
+#json files
+*.json
+
+
+#build artifacts
+*.js 
+*.css
