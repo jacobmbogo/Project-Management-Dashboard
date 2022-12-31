@@ -1,0 +1,10 @@
+*.json
+
+
+#directories
+node_modules/
+
+
+#build
+dist 
+
